@@ -1,0 +1,143 @@
+body
+	{
+		font-family:arial;
+		width:100%;
+		text-align:center;
+	}
+
+.msg1
+	{
+		margin:auto;
+		width:50%;
+		border:5px solid #167F46;
+		color:#167F46;
+	}
+	
+.msg2
+	{
+		margin:auto;
+		width:50%;
+		border:5px solid #BD3535;
+		color:#BD3535;
+	}
+
+.but_comando
+	{
+		background-color:#006699;
+		color:#FFF;
+		font-size:18px;
+		min-width:150px;
+		
+		box-shadow: 0px 0px 5px #FFF;
+		
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;		
+	}
+	
+.but_comando:hover
+	{
+		background-color:#4389C1;
+		color:#FFF;
+		font-size:18px;
+		min-width:150px;
+		box-shadow: 0px 0px 5px #FFF;
+		
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+
+input,textarea,select
+	{
+		padding:10px;
+		border:0;
+		background-color:#F4F4F4;
+		border-left:0px solid #014081;
+		border-bottom:0px solid #014081;
+		font-family: 'Arial Narrow';
+		font-size: 15px;
+		max-width:100%;
+		
+		-webkit-box-shadow: 0 8px 6px -9px #666;
+		-moz-box-shadow: 0 8px 6px -9px #666;
+		box-shadow: 0 8px 6px -9px #666;
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+.borda1
+	{
+		border:5px solid #900;
+	}
+	
+.borda2
+	{
+		border:5px solid #167F46;
+	}
+	
+.padding20
+	{
+		padding:20px;
+	}
+	
+.menu
+	{
+		padding:10px;
+		background-color:#006699;
+		color:#FFF;
+		font-weight:bold;
+		width:50%;
+		margin:auto;
+	}
+	
+a:link
+	{
+		color: #333;
+		
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+a:visited
+	{
+		color: #333;
+		
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;		
+	}
+a:hover
+	{
+		color: #4389C1;
+		
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;		
+	}
+a:active
+	{
+		color: #333;
+		
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;		
+	}
